@@ -46,12 +46,9 @@ MyVPN делает иначе. У него **свой вход** — мален�
 
 ## Как это работает
 
-```mermaid
-flowchart LR
-    P["📱 Телефон<br/>MyVPN"] -->|Reality| A["Свой вход"]
-    A --> B["Зарубежный выход"]
-    B --> C["🌐 Интернет"]
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rukazax/MyVPN-releases/main/docs/flow.svg" alt="Схема: телефон → свой вход → зарубежный выход → интернет" width="100%">
+</p>
 
 - **Reality на входе.** Соединение маскируется под обычный TLS-трафик к чужому сайту: снаружи
   его не отличить от визита в интернет.
@@ -136,12 +133,9 @@ Between them runs an isolated cascade with no public access.
 
 ### How it works
 
-```mermaid
-flowchart LR
-    P["📱 Phone<br/>MyVPN"] -->|Reality| A["Own entry"]
-    A --> B["Foreign exit"]
-    B --> C["🌐 Internet"]
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rukazax/MyVPN-releases/main/docs/flow.svg" alt="Diagram: phone → own entry → foreign exit → internet" width="100%">
+</p>
 
 - **Reality at the entry.** The connection is disguised as ordinary TLS traffic to a third-party
   site — indistinguishable from a regular visit.
@@ -195,6 +189,6 @@ Expected:
 
 ---
 
-Сделано [rukazax](https://github.com/rukazax) · Built by [rukazax](https://github.com/rukazax)
+Сделано [rukazax](https://github.com/rukazax) · Built by rukazax
 
 #vpn #android #reality #xray #amneziawg #rivet #cascade
