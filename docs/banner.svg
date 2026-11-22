@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="MyVPN — каскадный VPN для Android">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08121f"/>
+      <stop offset="0.55" stop-color="#0a1d2b"/>
+      <stop offset="1" stop-color="#0b2a22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2fe08a" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2fe08a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6cf7b4"/>
+      <stop offset="1" stop-color="#17a866"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2fe08a" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#2fe08a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <circle cx="150" cy="150" r="260" fill="url(#glow)"/>
+  <circle cx="150" cy="150" r="96" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- emblem -->
+  <circle cx="150" cy="150" r="70" fill="#0d2a24" stroke="url(#ring)" stroke-width="7"/>
+  <circle cx="150" cy="150" r="70" fill="none" stroke="#6cf7b4" stroke-opacity="0.25" stroke-width="14"/>
+  <path d="M150 84 v10" stroke="#6cf7b4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="201" cy="188" r="6" fill="#6cf7b4"/>
+  <circle cx="99" cy="188" r="4" fill="#6cf7b4" fill-opacity="0.55"/>
+  <rect x="126" y="150" width="48" height="40" rx="10" fill="#0b1a16" stroke="#c8ffe6" stroke-width="4"/>
+  <path d="M136 150 v-13 a14 14 0 0 1 28 0 v13" fill="none" stroke="#c8ffe6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="150" cy="169" r="4.5" fill="#6cf7b4"/>
+
+  <!-- wordmark -->
+  <text x="300" y="136" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#eaf6ff">MyVPN</text>
+  <text x="302" y="188" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#a7c4d9">Каскадный VPN для Android</text>
+  <text x="302" y="232" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="20" fill="#6d8aa0">свой вход → зарубежный выход → открытый интернет</text>
+
+  <!-- route line -->
+  <path d="M302 262 H1140" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="302" cy="262" r="4" fill="#2fe08a"/>
+  <circle cx="721" cy="262" r="3" fill="#2fe08a" fill-opacity="0.6"/>
+  <circle cx="1140" cy="262" r="4" fill="#2fe08a" fill-opacity="0.15"/>
+
+  <text x="1140" y="290" text-anchor="end" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" letter-spacing="2.4" fill="#58c996">REALITY · SSH · AMNEZIAWG · RIVET</text>
+</svg>
