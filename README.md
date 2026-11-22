@@ -134,7 +134,7 @@ Between them runs an isolated cascade with no public access.
 ### How it works
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rukazax/MyVPN-releases/main/docs/flow.svg" alt="Diagram: phone → own entry → foreign exit → internet" width="100%">
+  <img src="https://raw.githubusercontent.com/rukazax/MyVPN-releases/main/docs/flow-en.svg" alt="Diagram: phone → own entry → foreign exit → internet" width="100%">
 </p>
 
 - **Reality at the entry.** The connection is disguised as ordinary TLS traffic to a third-party
